@@ -29,7 +29,16 @@
 .header a{
   color: brown;
   text-decoration: none;
+  box-shadow: inset 0 0 0 0 #f3ce6a;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border-radius: 25px;  
 }
+.header a:hover {
+  box-shadow: inset 600px 0 0 0 #ce5e0d;
+  color: rgb(6, 5, 5);
+    }
 
 .row {
   margin-top: 20px;
@@ -48,6 +57,7 @@
   height: 120px;
   font-size: 80px;
   align-self: center;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #01010a;
 }
 .sub {
   padding: 10px;
@@ -200,6 +210,7 @@
 
 .contanos{
   color: aliceblue;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #01010a;
 }
 
 .formulario{
@@ -207,5 +218,11 @@
 }
 
 .sectionInternal h4 li a{
-  color: rgb(25, 204, 22);
+  color: rgb(204, 64, 22);
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #01010a;
+  }
+
+.botonete div{
+  display: inline-block;
 }
+
