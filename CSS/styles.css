@@ -103,6 +103,10 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;  
 }
 
+.contenido{
+  height: 900px; 
+}
+
 .menu li a{
   text-decoration: none;
 }
@@ -113,14 +117,35 @@
 .mainpa {
   margin-left: 150px;
   padding: 0;
-  height: 600px;
+  height:760px;
   width: 700px;
   font-size: 20px;
+}
+
+.imgpa img{
+  animation-name: indeximg;
+  animation-duration: 3s;
+}
+
+@keyframes indeximg {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
 }
 
 .imgpa {
   padding: 0;
   margin-left: 150px;
+  height: 760px;
+  width: 700px;
+  float: right;
 }
 
 .footer {
